@@ -1,0 +1,57 @@
+.container {
+  .button {
+    display: inline-flex;
+    align-items: center;
+
+    font-size: var(--font-size-14);
+
+    border-radius: 8px;
+
+    border: solid 1px var(--light-blue-2);
+
+    background: white;
+
+    padding: 7px 16px;
+
+    margin-right: 4px;
+
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .color {
+      height: 8px;
+      width: 8px;
+
+      background: var(--grey-2);
+
+      display: inline-block;
+
+      margin-right: 12px;
+
+      border-radius: 50%;
+    }
+
+    .name {
+      color: var(--light-blue-3);
+
+      display: inline-block;
+      margin-right: 8px;
+    }
+
+    .count {
+    }
+  }
+
+  .activeButton {
+    display: inline-flex;
+    align-items: center;
+
+    .name,
+    .count {
+      color: var(--white);
+    }
+  }
+}

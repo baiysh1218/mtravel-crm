@@ -1,0 +1,27 @@
+.title {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-700);
+
+  margin: 0 0 24px;
+}
+
+.container {
+  .input {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .checkBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+}

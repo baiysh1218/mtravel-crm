@@ -1,0 +1,29 @@
+.container {
+  .title {
+    font-size: var(--font-size-14);
+    color: var(--light-blue-3);
+
+    margin-bottom: 10px;
+  }
+
+  .textarea {
+    font-size: var(--font-size-15);
+
+    height: 90px;
+
+    resize: none;
+
+    background: var(--light-grey);
+    border: solid 1px var(--light-blue-2);
+
+    margin-bottom: 20px;
+
+    &::placeholder {
+      color: var(--light-blue);
+    }
+  }
+
+  .button {
+    width: 200px;
+  }
+}

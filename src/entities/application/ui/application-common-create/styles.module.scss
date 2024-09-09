@@ -1,0 +1,17 @@
+.input {
+  margin-bottom: 16px;
+}
+
+.checkBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.errorText {
+  margin-top: 10px;
+
+  color: var(--red);
+
+  font-size: var(--font-size-14);
+}

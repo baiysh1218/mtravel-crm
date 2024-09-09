@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 4px;
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    height: 36px;
+    width: 36px;
+  }
+
+  .phone {
+    background: var(--green);
+  }
+
+  .letter {
+    background: var(--orange);
+  }
+}

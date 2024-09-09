@@ -1,0 +1,35 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkBox {
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+}
+
+.label {
+  font-size: var(--font-size-14);
+  color: var(--dark-blue);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.checked {
+  background: var(--siren);
+  position: relative;
+
+  &:after {
+    content: "✓";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: var(--white);
+  }
+}
+
+.unchecked {
+  border: 1.6px solid var(--light-blue);
+}

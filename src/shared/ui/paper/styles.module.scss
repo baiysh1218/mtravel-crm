@@ -1,0 +1,32 @@
+.container {
+  background: var(--white);
+
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.secondary {
+  background: var(--light-grey);
+
+  border-radius: 8px;
+}
+
+.loader {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  height: 100%;
+  width: 100%;
+
+  background: var(--siren-transparet);
+
+  z-index: 1;
+
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

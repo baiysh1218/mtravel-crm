@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  .user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 32px;
+    width: 32px;
+
+    border-radius: 50%;
+
+    background: var(--white);
+  }
+
+  .bgGrey {
+    background: var(--light-grey);
+  }
+
+  .userName {
+    font-size: var(--font-size-14);
+    color: var(--light-blue-3);
+
+    cursor: pointer;
+
+    padding: 5px 0;
+  }
+}
+
+.iconLogOut {
+  path {
+    fill: var(--red);
+  }
+}
+
+.textLogOut {
+  span {
+    color: red !important;
+  }
+}

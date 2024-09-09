@@ -1,0 +1,25 @@
+.container {
+}
+
+.title {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-700);
+
+  margin: 0 0 24px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 14px;
+
+  border: solid var(--light-grey-5) 1px;
+
+  padding: 16px;
+
+  border-radius: 8px;
+
+  .item {
+    width: 50%;
+  }
+}

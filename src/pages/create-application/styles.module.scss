@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.form {
+  width: 40%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 30%;
+}

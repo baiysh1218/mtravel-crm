@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    .back {
+      position: relative;
+
+      &:after {
+        content: "";
+
+        display: block;
+
+        height: 20px;
+        width: 1px;
+
+        background: var(--light-blue-2);
+
+        position: absolute;
+
+        right: -20px;
+        top: 8px;
+      }
+    }
+  }
+}

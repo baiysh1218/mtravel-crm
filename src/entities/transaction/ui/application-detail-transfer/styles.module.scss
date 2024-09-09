@@ -1,0 +1,15 @@
+.container {
+  padding: 12px;
+
+  border: solid var(--light-grey-4) 1px;
+  border-radius: 5px;
+
+  font-size: var(--font-size-14);
+
+  span {
+    display: inline-block;
+    margin-right: 12px;
+
+    color: var(--light-black);
+  }
+}

@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+
+  .leftButton {
+    margin-right: 10px;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 32px;
+    width: 32px;
+
+    padding: 0;
+
+    background-color: var(--siren);
+
+    border-radius: 8px;
+
+    border: none;
+
+    cursor: pointer;
+
+    &:first-child {
+      margin-right: 4px;
+    }
+  }
+}

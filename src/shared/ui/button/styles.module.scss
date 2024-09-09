@@ -1,0 +1,45 @@
+.button {
+  border: none;
+  width: 100%;
+}
+
+.sm {
+  border-radius: 8px;
+  font-size: var(--font-size-12);
+}
+
+.nr {
+  border-radius: 8px;
+  font-size: var(--font-size-16);
+}
+
+.lr {
+}
+
+.paddingSmall {
+  padding: 7px 20px;
+}
+
+.paddingNorm {
+  padding: 12px 50px;
+}
+
+.paddingLarge {
+}
+
+.primary {
+  background: var(--siren);
+  color: var(--white);
+}
+
+.secondary {
+  color: var(--siren);
+  background: var(--white);
+  border: solid 1px var(--light-blue-2);
+}
+
+.third {
+  color: var(--dark-blue);
+  border: solid 1px var(--siren);
+  background: rgba(243, 250, 251, 1);
+}

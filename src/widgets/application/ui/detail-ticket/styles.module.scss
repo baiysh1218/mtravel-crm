@@ -1,0 +1,48 @@
+.container {
+  margin-top: 20px;
+}
+
+.active {
+  cursor: pointer;
+
+  path {
+    stroke: var(--orange);
+  }
+}
+
+.default {
+  cursor: pointer;
+
+  path {
+    stroke: var(--siren);
+  }
+}
+
+.rowExpand {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  > td {
+    border-top: solid 1px var(--light-blue-2);
+    border-bottom: solid 1px var(--light-blue-2);
+  }
+}
+
+.additionalWrapper {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
+
+  border-radius: 8px;
+  border: solid 1px var(--light-blue-3);
+
+  padding: 10px;
+}
+
+.block {
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

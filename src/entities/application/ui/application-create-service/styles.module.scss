@@ -1,0 +1,76 @@
+.title {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-700);
+
+  margin: 0 0 24px;
+}
+
+.container {
+  .input {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .checkBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.passengerBlock {
+  padding: 16px;
+
+  border-radius: 8px;
+
+  border: solid 1px var(--light-blue-2);
+
+  position: relative;
+}
+
+.service {
+  margin-bottom: 16px;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+
+  color: var(--dark-blue);
+}
+
+.buttonContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  font-size: var(--font-size-13);
+}
+
+.buttonAddPassenger {
+  margin-bottom: 16px;
+}
+
+.deleteButton {
+  position: absolute;
+  top: -23px;
+  right: 0;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
+  font-size: var(--font-size-14);
+
+  color: var(--red);
+}

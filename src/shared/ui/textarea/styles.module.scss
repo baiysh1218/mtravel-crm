@@ -1,0 +1,14 @@
+.textarea {
+  font-size: var(--font-size-16);
+
+  height: 90px;
+
+  resize: none;
+
+  background: var(--light-grey);
+  border: solid 1px var(--light-blue-2);
+
+  &::placeholder {
+    color: var(--light-blue);
+  }
+}

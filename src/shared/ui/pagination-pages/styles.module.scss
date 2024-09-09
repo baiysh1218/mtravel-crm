@@ -1,0 +1,68 @@
+.countPage {
+  margin-right: 24px;
+  min-width: 20%;
+}
+
+.pag {
+  max-width: 60%;
+
+  list-style: none;
+
+  display: flex;
+
+  padding: 0;
+
+  gap: 5px;
+
+  li {
+    font-size: var(--font-size-13);
+    font-weight: var(--font-weight-500);
+
+    text-decoration: none;
+    list-style: none;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      cursor: pointer;
+
+      height: 32px;
+      width: fit-content;
+
+      padding: 8px 16px;
+
+      border-radius: 8px;
+
+      transition: all 0.2s;
+
+      color: var(--dark-blue);
+      background-color: #fff;
+
+      &:hover {
+        color: var(--siren);
+      }
+    }
+
+    &.selected {
+      a {
+        color: var(--siren);
+        border: solid var(--siren) 1px;
+      }
+    }
+
+    &.prev,
+    &.next {
+      display: none;
+    }
+  }
+}
+
+.currentPage {
+  min-width: 20%;
+}
+
+.buttons {
+  min-width: 10%;
+}

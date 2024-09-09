@@ -1,0 +1,27 @@
+.option {
+  display: flex;
+  align-items: center;
+
+  overflow: auto;
+
+  .indicator {
+    height: 7px;
+    width: 7px;
+
+    border-radius: 50%;
+
+    background: red;
+
+    display: inline-block;
+
+    margin-right: 8px;
+  }
+
+  .label {
+    display: block;
+  }
+}
+
+.select {
+  margin-left: 10px;
+}

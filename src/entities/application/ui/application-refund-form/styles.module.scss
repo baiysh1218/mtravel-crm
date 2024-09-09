@@ -1,0 +1,47 @@
+.container {
+  .title {
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-700);
+
+    margin: 0 0 24px;
+  }
+
+  .textarea {
+    font-size: var(--font-size-16);
+    height: 90px;
+
+    resize: none;
+
+    background: var(--light-grey);
+    border: solid 1px var(--light-blue-2);
+
+    &::placeholder {
+      color: var(--light-blue);
+    }
+  }
+}
+
+.moneys {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap: 16px;
+
+  margin-bottom: 24px;
+}
+
+.input {
+  width: 100%;
+}
+
+.icon {
+  color: var(--light-blue);
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+
+  margin-top: 24px;
+}

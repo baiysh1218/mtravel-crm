@@ -1,0 +1,92 @@
+.wrapper {
+  .expandBtn {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+  }
+
+  table {
+    border: 1px solid var(--grey-2);
+
+    thead {
+      th {
+        padding: 10px 12px !important;
+
+        font-size: var(--font-size-13) !important;
+        font-weight: var(--font-weight-400) !important;
+
+        color: var(--light-black) !important;
+      }
+    }
+
+    tbody {
+      tr {
+        &:nth-child(odd) {
+          td {
+            background-color: var(--white) !important;
+          }
+        }
+
+        &:nth-child(even) {
+          td {
+            background-color: #f3fafb !important;
+          }
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        td {
+          vertical-align: baseline;
+
+          padding: 12px !important;
+
+          font-size: var(--font-size-13);
+
+          font-weight: 400;
+          line-height: 15px;
+
+          &:not(:last-child) {
+            border-right: 1px solid var(--light-grey-4);
+          }
+        }
+      }
+    }
+  }
+
+  &.clickable {
+    td {
+      cursor: pointer;
+    }
+  }
+
+  :global {
+    .ant-table {
+      margin: 0 !important;
+
+      .ant-checkbox {
+        .ant-checkbox-inner {
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      .ant-table-measure-row {
+        td {
+          padding: 0 !important;
+        }
+      }
+
+      &.ant-table-ping-left {
+        .ant-table-row {
+          .ant-table-cell {
+            &.ant-table-cell-fix-left-last {
+              box-shadow: 14px 30px 20px 0 rgba(0, 0, 0, 0.1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

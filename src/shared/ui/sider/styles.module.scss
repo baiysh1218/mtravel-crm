@@ -1,0 +1,140 @@
+.wrapper {
+  background-color: var(--white);
+
+  box-shadow: 0 7px 14px rgba(11, 31, 53, 0.06);
+
+  height: 100vh;
+  z-index: 100;
+
+  position: fixed !important;
+
+  :global {
+    .ant-layout-sider-trigger {
+      background-color: var(--white);
+    }
+  }
+
+  .trigger {
+    margin: 0 10px;
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+    height: 35px;
+    cursor: pointer;
+
+    .hideText {
+      margin-left: 20px;
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 125%;
+
+      // color: blue;
+
+      opacity: 1;
+
+      transition: opacity 0.7s ease-in-out;
+    }
+
+    .icon {
+      transform: rotate(0);
+
+      transition: transform 0.2s ease-in-out;
+    }
+
+    &.collapsed {
+      .hideText {
+        opacity: 0;
+
+        transition: opacity 0s ease-in-out;
+      }
+
+      .icon {
+        position: absolute;
+
+        transform: rotate(180deg);
+
+        transition: transform 0.2s ease-in-out;
+      }
+    }
+  }
+
+  .content {
+    height: calc(100vh - 45px);
+    padding: 8px 0;
+
+    .logoWrapper {
+      height: 68px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      cursor: pointer;
+    }
+
+    .navWrapper {
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 4px;
+      height: 100%;
+
+      .menuWrapper {
+        border: none;
+
+        :global {
+          .ant-menu-item {
+            height: 40px;
+
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 125%;
+            color: var(--grey);
+
+            display: flex;
+            align-items: center;
+
+            padding: 0 10px;
+
+            svg {
+              min-width: 20px;
+              min-height: 20px;
+            }
+          }
+        }
+
+        &.collapsed {
+          width: 50px;
+        }
+      }
+    }
+  }
+}
+
+.iconMenu {
+  width: 20px;
+  height: 20px;
+
+  color: var(--grey);
+}
+
+.unSelect {
+  * {
+    color: var(--light-blue-3);
+  }
+}
+
+.active {
+  * {
+    color: var(--siren);
+  }
+}
+
+.page {
+  padding: 20px 20px 20px 80px;
+
+  min-height: 100vh;
+
+  background: var(--light-grey);
+}

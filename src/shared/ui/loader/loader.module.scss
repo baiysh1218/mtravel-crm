@@ -1,0 +1,12 @@
+.loader {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+
+  svg path,
+  svg rect {
+    fill: var(--siren);
+  }
+}

@@ -1,0 +1,34 @@
+.container {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+
+    .left {
+      font-size: var(--font-size-18);
+      font-weight: var(--font-weight-500);
+    }
+
+    .right {
+      font-size: var(--font-size-15);
+      font-weight: var(--font-weight-500);
+      color: var(--siren);
+    }
+  }
+
+  .content {
+    span {
+      color: var(--light-black);
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: var(--light-blue-3);
+      font-size: var(--font-size-24);
+      font-weight: var(--font-weight-700);
+    }
+  }
+}

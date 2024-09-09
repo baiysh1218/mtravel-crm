@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .listSecond {
+    display: flex;
+    gap: 32px;
+
+    .wrapper {
+      display: flex;
+    }
+  }
+}
+
+.border {
+  background: var(--light-grey);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.marginBottom {
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 32px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .item {
+    position: relative;
+
+    &:after {
+      content: "";
+
+      display: block;
+
+      position: absolute;
+      right: -18px;
+      top: 7px;
+
+      height: 24px;
+      width: 2px;
+
+      background: var(--light-blue);
+    }
+
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}

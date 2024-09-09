@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  span {
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-500);
+
+    color: var(--light-blue-3);
+  }
+
+  p {
+    font-size: var(--font-size-13);
+    margin: 4px 0 0 0;
+  }
+}

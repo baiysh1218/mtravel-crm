@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  h1 {
+    font-size: var(--font-size-24);
+    font-weight: var(--font-weight-600);
+
+    margin: 0;
+  }
+
+  &:last-child {
+    margin-top: 32px;
+  }
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.tabs {
+  margin-top: 20px;
+}
+
+.button {
+  height: 20px;
+  width: 180px;
+}
+
+.contentButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.filter {
+  display: flex;
+  gap: 8px;
+}
+
+.pagination {
+  margin-top: 20px;
+}

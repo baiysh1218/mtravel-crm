@@ -1,0 +1,15 @@
+.container {
+  span {
+    color: var(--light-blue-3);
+    font-size: var(--font-size-13);
+  }
+
+  p {
+    font-size: var(--font-size-15);
+    font-weight: var(--font-weight-500);
+
+    line-height: 20px;
+
+    margin: 4px 0 0 0;
+  }
+}

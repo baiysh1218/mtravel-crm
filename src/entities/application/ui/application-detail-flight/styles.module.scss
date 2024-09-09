@@ -1,0 +1,10 @@
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
+
+  border-radius: 8px;
+  border: solid 1px var(--light-blue-3);
+
+  padding: 10px;
+}

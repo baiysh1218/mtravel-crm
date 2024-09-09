@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  .color {
+    height: 8px;
+    width: 8px;
+
+    background: var(--grey-2);
+
+    display: inline-block;
+
+    margin-right: 12px;
+
+    border-radius: 50%;
+  }
+
+  .name {
+    font-size: var(--font-size-13);
+  }
+}

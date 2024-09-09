@@ -1,0 +1,68 @@
+.container {
+  .title {
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-700);
+
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    color: var(--light-blue);
+  }
+
+  .field {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.wrapperPassenger {
+  .wrapper {
+    padding: 16px;
+    border-radius: 8px;
+    border: solid 1px var(--light-grey-5);
+  }
+
+  .title {
+    color: var(--light-grey-3);
+
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+
+    text-transform: uppercase;
+
+    margin: 0 0 8px;
+  }
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+
+  .field {
+    width: 48%;
+
+    margin-bottom: 0;
+  }
+
+  .ticketPrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 36px;
+
+    background: var(--light-grey);
+
+    border-radius: 8px;
+
+    padding: 7.5px 12px;
+
+    color: var(--dark-blue);
+  }
+}

@@ -1,0 +1,39 @@
+.container {
+  .name {
+    color: var(--grey-3);
+
+    font-size: var(--font-size-13);
+
+    text-transform: uppercase;
+
+    padding-right: 32px;
+
+    position: relative;
+
+    cursor: pointer;
+
+    &:after {
+      content: "";
+
+      height: 20px;
+      width: 15px;
+
+      position: absolute;
+
+      right: 8px;
+      top: 0;
+
+      background: url("@/assets/icons/arrow_left.svg") no-repeat 93% 0;
+
+      transform: rotate(180deg);
+    }
+
+    &:last-child {
+      padding-right: 0;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+}

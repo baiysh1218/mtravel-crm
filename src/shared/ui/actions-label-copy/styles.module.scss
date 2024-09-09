@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.rightAction {
+  height: 36px;
+  width: 36px;
+
+  border-radius: 8px;
+
+  border: solid 1px var(--light-blue-2);
+
+  background: var(--white);
+
+  margin-left: 24px;
+
+  .icon {
+    color: var(--light-blue-3);
+  }
+}

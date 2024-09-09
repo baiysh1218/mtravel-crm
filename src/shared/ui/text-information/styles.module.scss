@@ -1,0 +1,13 @@
+.container {
+  .title {
+    font-size: var(--font-size-14);
+    color: var(--light-blue-3);
+    margin-bottom: 8px;
+  }
+
+  .description {
+    font-size: var(--font-size-13);
+    color: var(--dark-blue);
+    line-height: 20px;
+  }
+}

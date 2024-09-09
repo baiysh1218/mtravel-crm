@@ -1,0 +1,9 @@
+.container {
+  background: transparent;
+
+  :global {
+    * {
+      color: unset;
+    }
+  }
+}

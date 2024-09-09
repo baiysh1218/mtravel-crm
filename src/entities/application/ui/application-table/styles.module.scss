@@ -1,0 +1,38 @@
+.container {
+}
+
+.letter {
+  height: 40px;
+  width: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(230, 245, 246, 0.5);
+  border: solid 1px var(--light-blue-2);
+
+  border-radius: 8px;
+
+  position: relative;
+
+  .indicator {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    right: -6px;
+    bottom: -6px;
+
+    background: var(--green);
+
+    color: var(--white);
+
+    border-radius: 8px;
+
+    min-height: 20px;
+    min-width: 20px;
+  }
+}
